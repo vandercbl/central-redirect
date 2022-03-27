@@ -1,7 +1,16 @@
 import React from 'react'
+import { ThemeProvider } from 'styled-components'
+import GlobalStyle from './styles/global'
+import Theme from './styles/theme'
+import MainRoutes from './routes'
 
 function App() {
-	return <h1>Teste 2</h1>
+	return (
+		<ThemeProvider theme={Theme}>
+			<GlobalStyle />
+			<MainRoutes />
+		</ThemeProvider>
+	)
 }
 
 export default App
