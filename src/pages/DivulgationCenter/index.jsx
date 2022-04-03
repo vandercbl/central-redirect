@@ -17,9 +17,7 @@ function DivulgationCenter() {
 	}
 
 	useEffect(() => {
-		setTimeout(() => {
-			redirectPage(urlRedirect)
-		}, 5000)
+		redirectPage(urlRedirect)
 	}, [])
 
 	return (
