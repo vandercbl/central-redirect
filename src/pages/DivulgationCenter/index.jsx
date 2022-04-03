@@ -20,12 +20,7 @@ function DivulgationCenter() {
 		redirectPage(urlRedirect)
 	}, [])
 
-	return (
-		<>
-			<h1>Central de divulgação</h1>
-			<p>Vai ser a página que vai redirecionar para as outras</p>
-		</>
-	)
+	return <p>Carregando...</p>
 }
 
 export default DivulgationCenter
