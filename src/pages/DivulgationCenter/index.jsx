@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 function DivulgationCenter() {
 	const navigate = useNavigate()
-	const urlRedirect = 'https://www.google.com.br'
+	const urlRedirect = 'https://www.instagram.com/juventudemens/'
 
 	const redirectPage = (url) => {
 		// eslint-disable-next-line prefer-regex-literals
