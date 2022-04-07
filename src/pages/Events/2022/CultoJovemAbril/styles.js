@@ -31,13 +31,16 @@ export const PageEvent = styled.div`
 	background-size: cover;
 	/* background-size: 100%; */
 	background-position: center;
-	animation: ${zoom} 14s;
+
+	@media (min-width: 768px) {
+		animation: ${zoom} 14s;
+	}
 
 	.container {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: 100vh;
+		height: 90vh;
 
 		@media (min-width: 768px) {
 			display: block;
