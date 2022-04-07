@@ -5,9 +5,8 @@ function Home() {
 	return (
 		<>
 			<h1>Home</h1>
-			<p>Texto home a</p>
-			<Link to="/centro-de-divulgacao">Centro</Link>
-			<Link to="/events/2022/culto-jovem-abril">Evento</Link>
+			<Link to="/centro-de-divulgacao">Centro de Divulgação</Link>
+			{/* <Link to="/events/2022/culto-jovem-abril">Evento</Link> */}
 		</>
 	)
 }

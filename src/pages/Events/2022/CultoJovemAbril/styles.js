@@ -15,6 +15,17 @@ const zoom = keyframes`
 		background-size: 150%;
 	}
 `
+const zoomMobile = keyframes`
+	0% {
+		background-position: center left;
+	}
+	50% {
+		background-position: center right;
+	}
+	100% {
+		background-position: center left;
+	}
+`
 
 const appearTop = keyframes`
 	from {
@@ -31,6 +42,7 @@ export const PageEvent = styled.div`
 	background-size: cover;
 	/* background-size: 100%; */
 	background-position: center;
+	animation: ${zoomMobile} 60s ease infinite;
 
 	@media (min-width: 768px) {
 		animation: ${zoom} 14s;
@@ -145,11 +157,7 @@ export const PageEvent = styled.div`
 			}
 
 			.verso {
-				display: none;
-
-				@media (min-width: 768px) {
-					display: block;
-				}
+				font-size: 1.5rem;
 			}
 
 			@media (min-width: 768px) {
@@ -165,6 +173,12 @@ export const PageEvent = styled.div`
 				border-radius: 10px;
 				margin: 6px 0;
 				font-weight: bold;
+				text-decoration: none;
+
+				&:hover {
+					background: #ff8100;
+					transition: all 1s;
+				}
 			}
 			p {
 				color: #ffffff;

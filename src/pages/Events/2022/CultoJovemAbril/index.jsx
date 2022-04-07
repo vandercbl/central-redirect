@@ -1,11 +1,19 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { PageEvent, TitleEventComplet } from './styles'
 import LinksSocialMedia from '../../../../components/LinksSocialMedia'
 
 function CultoJovemAbril2022() {
 	return (
 		<PageEvent>
+			<Helmet>
+				<title>Culto Jovem - 16 de Abril às 19h30</title>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik+Glitch&display=swap"
+					rel="stylesheet"
+				/>
+			</Helmet>
 			<div className="bg-overlay" />
 			<div className="container">
 				<div className="data">
@@ -19,15 +27,15 @@ function CultoJovemAbril2022() {
 								<span className="down">Perder</span> para <span className="up">Ganhar</span>
 							</TitleEventComplet>
 						</div>
-						<p className="verso">
-							Porque aquele que quiser salvar a sua vida, perdê-la-á, e quem perder a sua vida por
-							amor de mim, achá-la-á.
-						</p>
-						<p className="verso">
-							Pois que aproveita ao homem ganhar o mundo inteiro, se perder a sua alma? Ou que dará
-							o homem em recompensa da sua alma?
-						</p>
-						<p className="ref">Mateus 16:25-26</p>
+						<p className="verso">Você tem gastado sua vida em favor de quem?</p>
+						<a
+							href="https://www.bibliaonline.com.br/acf/mt/16/25,26"
+							className="ref"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Mateus 16:25-26
+						</a>
 					</div>
 				</div>
 				<div className="footer">
