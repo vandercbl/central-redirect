@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom'
 
 function DivulgationCenter() {
 	const navigate = useNavigate()
-	const urlRedirect = 'https://www.instagram.com/juventudemens/'
+	// const urlRedirect = 'https://www.instagram.com/juventudemens/'
+	const urlRedirect = '/events/2022/culto-jovem-abril'
 
 	const redirectPage = (url) => {
 		// eslint-disable-next-line prefer-regex-literals
@@ -12,7 +13,7 @@ function DivulgationCenter() {
 		if (hasHttp) {
 			setTimeout(() => {
 				window.location = url
-			}, 3000)
+			}, 1000)
 		} else {
 			navigate(url)
 		}
@@ -53,7 +54,7 @@ function DivulgationCenter() {
 	return (
 		<>
 			{desatualizado ? <p>Desatualizado</p> : <p>Carregando...</p>}
-			<p>~</p>
+			<p>...</p>
 		</>
 	)
 }
