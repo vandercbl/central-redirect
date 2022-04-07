@@ -131,7 +131,7 @@ export const PageEvent = styled.div`
 				font-size: 2.5rem;
 				font-family: 'Rubik Glitch', cursive;
 				font-weight: 200;
-				color: #000;
+				color: #412a47;
 				text-shadow: 1px 1px 2px #ffffffc4;
 				margin-top: 20px;
 
