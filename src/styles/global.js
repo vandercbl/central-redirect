@@ -11,6 +11,7 @@ body {
 	background: #F5F9FC;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
 }
 
 body, #root {
@@ -62,50 +63,12 @@ button {
 
 }
 
-h2 {
-	font-weight: 500;
-	font-size: 1.8rem;
-	margin: 16px 0;
-}
-
 .container {
 	max-width: 1300px;
-	padding: 16px;
+	padding: 0 16px;
 	margin: 0 auto;
 	/* display: flex;
 	width: 100%; */
 	position: relative;
 }
-
-.field {
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		width: 100%;
-		padding-bottom: 20px;
-		margin-bottom: 8px;
-
-		span {
-			position: absolute;
-			font-size: 0.7rem;
-			bottom: 0;
-			color: #dc2525;
-		}
-
-		label {
-			margin-bottom: 4px;
-			font-weight: 500;
-			padding-left: 4px;
-		}
-
-		input,
-		select {
-			border: 0;
-			background: #fff;
-			padding: 8px;
-			border: 1px solid #dedede;
-			height: 38px;
-			font-size: 1rem;
-		}
-	}
 `
